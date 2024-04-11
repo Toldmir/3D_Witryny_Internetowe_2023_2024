@@ -1,1 +1,1 @@
-Jeszcze test do zrobienia, zadanie 6 oraz zadanie egzaminacyjne
+
