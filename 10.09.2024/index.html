@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona przypominajka tematyka dowolna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- img, tabela, formularz -->
+    <nav>
+        <h3>Home</h3>
+        <h3>About</h3>
+        <h3>FAQ</h3>
+    </nav>
+    <main>
+        <!-- formularz -->
+        <fieldset>
+            <form action="">
+                <label>Email:
+                    <input type="text" name="login" required placeholder="example@gmail.com">
+                </label>
+                <br>
+                <label>Hasło:
+                    <input type="password" name="password" required>
+                </label>
+                <br>
+                <label>Podaj wiek:
+                    <input type="number" name="number" placeholder="Np. 18">
+                </label>
+                <br>
+                <label >Lub w takiej formie
+                    <input type="range" name="wiek" max="100" min="18">
+                </label>
+                <br>
+                Płeć:
+                <br>
+                <label>
+                    Kobieta
+                    <input type="radio" name="gender">
+                </label>
+                <label>
+                    Mężczyzna
+                    <input type="radio" name="gender">
+                </label>
+                <br>
+                <label >Miasto:
+                    <select name="lista-miast" id="">
+                        <option value="Kielce">Kielce</option>
+                        <option value="Kielce">Piekoszów</option>
+                        <option value="Kielce">Warszawa</option>
+                        <option value="Kielce">Gdańsk</option>
+                        <option value="Kielce">Poznań</option>
+                    </select>
+                </label>
+                <br>
+                <br>
+                <button type="submit" class="submitBtn">Wyślij formularz</button>
+            </form>
+        </fieldset>
+        <br>
+        <!-- tabelka -->
+        <fieldset class="tabelka">
+            <legend>Tabela</legend>
+            <table>
+            <tr>
+                    <th class="red">header tabeli 1</th>
+                    <th class="yellow">header tabeli 2</th>
+                    <th class="red">header tabeli 3</th>
+                </tr>
+                <tr>
+                    <td>komórka tabeli</td>
+                    <td colspan="2">col span</td>
+                </tr>
+                <tr>
+                    <td>kolejna komórka</td>
+                    <td rowspan="2s">row span</td>
+                    <td rowspan="2">row span kolejny</td>
+                </tr>
+                <tr>
+                    <td>komórka</td>
+                </tr>
+                <tr>
+                    <tfoot>
+                        <td colspan="3">stopka tabelki</td>
+                    </tfoot>
+                </tr>
+            </table>
+            </fieldset>
+
+        <!-- zdj -->
+        <img src="kot.webp" alt="kot biało czarny" >
+        <br>
+        <a href="https://www.youtube.com/watch?v=ZzaPdXTrSb8">Link do materiału na youtube</a>
+
+        <h1>Film z yt bezpośrednio na stronie:</h1>
+        <iframe width="893" height="502" src="https://www.youtube.com/embed/ZzaPdXTrSb8" title="C++ Tutorial for Beginners - Learn C++ in 1 Hour" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </main>
+    <footer>
+        <p class="paragraph"> Informacje kontaktowe:</h3>
+        <p>Numer tel +48 123 939 955</p>
+        <p>Email: example@gmail.com</p>
+
+    </footer>
+</body>
+
+</html>
